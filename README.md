@@ -1,19 +1,28 @@
-#  Hey there! I'm Caprice
+# Hey there! I'm Caprice
 
-I'm a Data Analyst and Python Developer evolving into a full-stack Data Scientist.
-I believe data can (and should) be used to make the world better, whether that's optimizing public health systems, amplifying underserved voices, or uncovering what really drives human behavior.
-My projects aren't just dashboards and pipelines, they're tools built with intention.
-From shopper behavior models to end-to-end ETL systems, I build with one question in mind:
-What if this actually helped someone?
+# Holiday Shopper Behavior Analysis
 
--  Data Analyst | Python Dev | Statistical Modeling
--  Passionate about solving problems that matter
--  Results-driven | Always learning
--  Currently building: AI-ready data projects + Gen Z analytics tools
+This project analyzes online customer behavior during the peak shopping months of November and December.
 
-##  Tech I Use
-`Python` `Pandas` `SQL` `scikit-learn` `Matplotlib` `Airflow` `DBT` `Git`
+## Key Questions Answered
+- What are the purchase rates for returning vs. new customers?
+- Which customer page behaviors are most correlated?
+- What’s the probability of campaign success based on boosted purchase rates?
 
-##  Featured Projects
- Holiday Shopper Analysis](https://github.com/CapricelovesData/holiday-shopper-analysis)  
- LOADING
+## Results
+- **Purchase Rates**:
+  - Returning Customers: 19.6%
+  - New Customers: 27.3%
+- **Top Correlation**: Admin Duration ↔ Product Duration (0.417)
+- **Campaign Model**: 92.27% chance of 100+ purchases (with 15% rate increase)
+
+## Files
+- `holiday_shopper_analysis.py`: Full analysis with code comments and visuals
+
+## Tech Stack
+`Python` `pandas` `scipy.stats` `matplotlib`
+
+## How to Run
+```bash
+pip install pandas matplotlib scipy
+python holiday_shopper_analysis.py
